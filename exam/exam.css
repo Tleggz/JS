@@ -1,0 +1,146 @@
+.wrapper {
+    width: 960px;
+    height: 300px;
+    background-color: rgb(30, 158, 158);
+    color: white;
+    margin: 0 auto;
+
+}
+#flex-1 {
+    flex: 1;
+    display: flex;
+    text-align: center;
+}
+.links {
+    padding-top: 50px;
+    justify-content: space-evenly;
+    padding-left: 480px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.btn {
+    background-color: white;
+    border-color: blueviolet;
+    color: blueviolet;
+    font-size: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+h1 {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 25px;
+}
+img {
+    padding-top: 20px;
+}
+#pet {
+    width: 180px;
+    height: 32px;
+}
+#paw {
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+#area {
+    width: 180px;
+    height: 32px;
+}
+#pin {
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    margin-left: 50px;
+
+}
+label {
+    display: block;
+    margin-bottom: -22px;
+    margin-left: 6px;
+    margin-top: 130px;
+    padding-left: 50px;
+}
+#bf {
+    margin-left: 100px;
+    background-color: blueviolet;
+    border: solid black 2px;
+    box-shadow: black 3px 3px 2px 0px;
+    color: white;
+    width: 200px;
+}
+#city {
+    height: 25px;
+}
+hr {
+    font-size: 47px;
+    border: 2px solid black;
+}
+#main {
+    width: 960px;
+    color: black;
+}
+#pepper {
+    width: 140px;
+    height: 140px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+#bruce {
+    width: 140px;
+    height: 140px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+#oscar {
+    width: 140px;
+    height: 140px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+}
+#box {
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 960px;
+    background-color: rgba(211, 211, 211, 0.616);
+    border-radius: 15px;
+    margin: 8px 0 6px 0;
+    height: 180px;
+    position: relative;
+}
+h2 {
+    font-size: 30px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+p {
+    margin-left: 15px;
+}
+.bttn {
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    width: 190px;
+    height: 30px;
+    background-color: rgb(30, 158, 158);
+    border: solid 2px black;
+    box-shadow: black 3px 3px 2px 0px;
+    color: white;
+}
+#petting {
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+}
+.petting {
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+}
